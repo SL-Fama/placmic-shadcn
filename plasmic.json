@@ -1,0 +1,81 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "9gRvMkswHjCbrRiuxokTRW",
+      "projectApiToken": "IYwrXXHwpfKM1qOkGZaULQwEgMPdxmxn7khYx3MaCsrpnO2curwLZ4tS3CeFnmsF90JDHNYpbHN0v6b90Bg",
+      "projectName": "shadcn-library",
+      "version": "latest",
+      "cssFilePath": "plasmic/shadcn_library/plasmic.module.css",
+      "components": [
+        {
+          "id": "HEhR30yj6RGx",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "9gRvMkswHjCbrRiuxokTRW",
+          "renderModuleFilePath": "plasmic/shadcn_library/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "Homepage.jsx"
+          },
+          "cssFilePath": "plasmic/shadcn_library/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "ebolbj1jZPWK",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "9g_d7OWlVOLu",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "eXqbxJBEAIdz",
+        "name": "Screen",
+        "projectId": "9gRvMkswHjCbrRiuxokTRW",
+        "contextFilePath": "plasmic/shadcn_library/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.331",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.331/dist/plasmic.schema.json"
+}
